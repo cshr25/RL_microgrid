@@ -1,4 +1,16 @@
 # RL_microgrid
+This project contains code and simulation models of a communication network microgrid. 
+To run then, download the whole repository and run main function in Matlab.
+
+Main functon:
+
+Load and power generation functions;
+
+Mixed game solving function:
+
+The self learning function is in the main function. Next I will create an individual learning function so that different RL methods could be applided.
+
+
 Bullet points:
 1. Microgrid electric model muilding in python (simple load balance)
 2. Base station controller logic module building and its interface port with different method. Make it universal.
