@@ -3,15 +3,20 @@ This project contains code and simulation models of a communication network micr
 To run then, download the whole repository and run main function in Matlab.
 
 Main functon:
+bytest_adaptive_game_add.m
 
-Load and power generation functions;
+Load and power generation functions：
+embeded in main function.
 
 Mixed game solving function:
+gamesolver_add(?)
 
 The self learning function is in the main function. Next I will create an individual learning function so that different RL methods could be applided.
 
+The objective function needs a lot of comments, working on it...
 
-Bullet points:
+
+#### Bullet points:
 1. Microgrid electric model muilding in python (simple load balance)
 2. Base station controller logic module building and its interface port with different method. Make it universal.
 3. RL method application and modeling. Need specify problem space and learning methid.
