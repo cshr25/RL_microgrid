@@ -101,9 +101,9 @@ state=floor(SoC(t)/(1/batterysnumber));
             break
       end
     end
-    [vv, idx]=max(chance);
-    alphareal=alphaset(idx);
-    record(daymark,t)=idx;
+%    [vv, idx]=max(chance);
+    alphareal=alphaset(l);
+    record(daymark,t)=l;
 %%%end trying%%%
 
 alpha(t)=alphareal;
